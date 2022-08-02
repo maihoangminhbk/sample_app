@@ -1,0 +1,28 @@
+vi:
+  global:
+    menu:
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+  static_pages:
+    home:
+      home: "Home"
+      welcome: "Welcome"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      welcome: "Chào mừng"
+      login: "Đăng nhập"
+      intro1: "Đây là trang web cho"
+      intro2: "với ví dụ."
+      signup: "Đăng kí"
+    help:
+      help: "Giúp đỡ"
+      intro1: "Tìm kiếm sự giúp đỡ ở"
+      intro2: "Có thể tìm kiếm giúp đỡ về ví dụ ở"
+    about:
+      about: "Thông tin"
+      intro1: "Dạy phát triển Web với"
+      intro2: "Đây là ví dụ mẫu."
+    contact:
+      contact: "Liên hệ"
+      intro: "Liên hệ với trang chủ chính thức Ruby on Rails ở"
