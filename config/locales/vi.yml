@@ -3,10 +3,8 @@ vi:
     menu:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
-  static_pages:
-    home:
-      home: "Home"
-      welcome: "Welcome"
+    footer:
+      news: "Tin tức"
   static_pages:
     home:
       home: "Trang chủ"
@@ -25,4 +23,8 @@ vi:
       intro2: "Đây là ví dụ mẫu."
     contact:
       contact: "Liên hệ"
-      intro: "Liên hệ với trang chủ chính thức Ruby on Rails ở"
+      intro1: "Liên hệ với trang chủ chính thức Ruby on Rails ở"
+  users:
+    new:
+      signup: "Đăng kí"
+      intro1: "Đăng kí thành viên mới."
