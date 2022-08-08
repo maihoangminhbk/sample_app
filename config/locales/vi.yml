@@ -5,6 +5,14 @@ vi:
       vietnamese: "Tiếng Việt"
     footer:
       news: "Tin tức"
+    flash:
+      user:
+        success: "Chào mừng đến với ứng dụng Sample App!"
+        invalid: "Thông tin chưa đúng, chưa thể đăng kí"
+    error:
+      form:
+        contain: "Dữ liệu chứa đựng "
+        errors: "lỗi"
   static_pages:
     home:
       home: "Trang chủ"
@@ -28,3 +36,8 @@ vi:
     new:
       signup: "Đăng kí"
       intro1: "Đăng kí thành viên mới."
+      account_create: "Tạo tài khoản"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation_password: "Xác nhận mật khẩu"
