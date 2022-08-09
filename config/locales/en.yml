@@ -5,6 +5,14 @@ en:
       vietnamese: "Vietnamese"
     footer:
       news: "News"
+    flash:
+      user:
+        success: "Welcome to the Sample App!"
+        invalid: "Invalid, Cann't signup"
+    error:
+      form:
+        contain: "The form contains "
+        errors: "errors"
   static_pages:
     home:
       home: "Home"
@@ -29,3 +37,8 @@ en:
     new:
       signup: "Sign up"
       intro1: "This will be a signup page for new users."
+      account_create: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation_password: "Confirmation password"

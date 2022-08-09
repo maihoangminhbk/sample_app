@@ -4,4 +4,4 @@ validates:
   email:
     max_length: 255
   password:
-    min_leangth: 6
+    min_length: 6
