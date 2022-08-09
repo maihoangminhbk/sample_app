@@ -3,12 +3,20 @@ vi:
     menu:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+      users: "Thành viên"
+      account: "Tài khoản"
+      profile: "Cá nhân"
+      settings: "Cài đặt"
+      login: "Đăng nhập"
+      logout: "Đăng xuất"
     footer:
       news: "Tin tức"
     flash:
       user:
         success: "Chào mừng đến với ứng dụng Sample App!"
         invalid: "Thông tin chưa đúng, chưa thể đăng kí"
+      login:
+        invalid: "Email hoặc mật khẩu không đúng"
     error:
       form:
         contain: "Dữ liệu chứa đựng "
@@ -41,3 +49,8 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       confirmation_password: "Xác nhận mật khẩu"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      new_user: "Tài khoản mới?"
+      signup_now: "Đăng kí ngay!"

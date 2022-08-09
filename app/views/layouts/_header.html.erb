@@ -5,9 +5,25 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("static_pages.home.home"), static_pages_home_path %></li>
         <li><%= link_to t("static_pages.help.help"), static_pages_help_path %></li>
-        <li><%= link_to t("static_pages.home.login"), "#" %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("global.menu.users"), '#' %></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= t "global.menu.account" %><b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("global.menu.profile"), current_user %></li>
+              <li><%= link_to t("global.menu.settings"), '#' %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t("global.menu.logout"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("global.menu.login"), login_path %></li>
+        <% end %>
       </ul>
-
       <ul>
         <li><%= link_to t("global.menu.english"), root_path(locale: :en) %></li>
         <li><%= link_to t("global.menu.vietnamese"), root_path(locale: :vi) %></li>
