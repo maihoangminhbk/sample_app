@@ -3,12 +3,20 @@ en:
     menu:
       english: "English"
       vietnamese: "Vietnamese"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      login: "Login"
+      logout: "Logout"
     footer:
       news: "News"
     flash:
       user:
         success: "Welcome to the Sample App!"
         invalid: "Invalid, Cann't signup"
+      login:
+        invalid: "Invalid email/password combination"
     error:
       form:
         contain: "The form contains "
@@ -42,3 +50,8 @@ en:
       email: "Email"
       password: "Password"
       confirmation_password: "Confirmation password"
+  sessions:
+    new:
+      login: "Login"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
