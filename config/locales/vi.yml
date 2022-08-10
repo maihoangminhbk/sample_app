@@ -17,6 +17,12 @@ vi:
         invalid: "Thông tin chưa đúng, chưa thể đăng kí"
       login:
         invalid: "Email hoặc mật khẩu không đúng"
+        require: "Xin hãy đăng nhập"
+      edit:
+        success: "Sửa thành công!"
+        invalid: "Thông tin bị sai"
+      find:
+          not_found: "Không tìm thấy người dùng!"
     error:
       form:
         contain: "Dữ liệu chứa đựng "
@@ -41,6 +47,8 @@ vi:
       contact: "Liên hệ"
       intro1: "Liên hệ với trang chủ chính thức Ruby on Rails ở"
   users:
+    index:
+      all_user: "Người dùng"
     new:
       signup: "Đăng kí"
       intro1: "Đăng kí thành viên mới."
@@ -50,6 +58,15 @@ vi:
       password: "Mật khẩu"
       confirmation_password: "Xác nhận mật khẩu"
       remember_me: "Lưu tài khoản"
+    edit:
+      edit: "Chỉnh sửa người dùng"
+      account_edit: "Sửa thông tin"
+      change: "Đổi"
+    delete:
+      delete: "Xóa"
+      confirm: "Bạn có chắc muốn xóa?"
+      success: "Xóa thành công"
+      fail: "Xóa thất bại, thử lại"
   sessions:
     new:
       login: "Đăng nhập"

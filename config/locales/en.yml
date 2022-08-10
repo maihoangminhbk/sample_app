@@ -13,10 +13,17 @@ en:
       news: "News"
     flash:
       user:
-        success: "Welcome to the Sample App!"
-        invalid: "Invalid, Cann't signup"
-      login:
-        invalid: "Invalid email/password combination"
+        signup:
+          success: "Welcome to the Sample App!"
+          invalid: "Invalid, Cann't signup"
+        login:
+          invalid: "Invalid email/password combination"
+          require: "Please login"
+        edit:
+          success: "Edit successful!"
+          invalid: "Invalid email/password combination"
+        find:
+          not_found: "User Not Found!"
     error:
       form:
         contain: "The form contains "
@@ -42,6 +49,8 @@ en:
       contact: "Contact"
       intro1: "Contact the Ruby on Rails Tutorial about the sample app at the"
   users:
+    index:
+      all_user: "All user"
     new:
       signup: "Sign up"
       intro1: "This will be a signup page for new users."
@@ -51,6 +60,15 @@ en:
       password: "Password"
       confirmation_password: "Confirmation password"
       remember_me: "Remember me on this computer"
+    edit:
+      edit: "Edit user"
+      account_edit: "Edit my account"
+      change: "Change"
+    delete:
+      delete: "Delete"
+      confirm: "Are you sure?"
+      success: "Delete completed"
+      fail: "Delete fail, try again"
   sessions:
     new:
       login: "Login"

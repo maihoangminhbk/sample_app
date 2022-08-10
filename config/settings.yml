@@ -5,3 +5,10 @@ validates:
     max_length: 255
   password:
     min_length: 6
+image:
+  default:
+    size: 80
+  avatar:
+    size: 50
+pagy:
+  size: 10
