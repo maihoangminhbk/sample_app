@@ -49,6 +49,7 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       confirmation_password: "Xác nhận mật khẩu"
+      remember_me: "Lưu tài khoản"
   sessions:
     new:
       login: "Đăng nhập"

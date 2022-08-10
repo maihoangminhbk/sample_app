@@ -50,6 +50,7 @@ en:
       email: "Email"
       password: "Password"
       confirmation_password: "Confirmation password"
+      remember_me: "Remember me on this computer"
   sessions:
     new:
       login: "Login"
