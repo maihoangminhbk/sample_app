@@ -19,6 +19,7 @@ en:
         login:
           invalid: "Invalid email/password combination"
           require: "Please login"
+          check_email: "Please check your email to activate your account."
         edit:
           success: "Edit successful!"
           invalid: "Invalid email/password combination"
@@ -69,8 +70,34 @@ en:
       confirm: "Are you sure?"
       success: "Delete completed"
       fail: "Delete fail, try again"
+    create:
+      invalid: "Invalid, Cann't signup"
+      check_email: "Please check your email to activate your account."
+    update:
+      success: "Edit successful!"
+      invalid: "Invalid email/password combination"
+    destroy:
+      success: "Delete completed"
+      fail: "Delete fail, try again"
+    logged_in_user:
+      require: "Please login"
+    find_user:
+      not_found: "User Not Found!"
+
   sessions:
     new:
       login: "Login"
       new_user: "New user?"
       signup_now: "Sign up now!"
+    create:
+      invalid: "Invalid email/password combination"
+
+  mailer:
+    user:
+      greeting: "Hi!"
+      subject: "Account activation"
+      intro1: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      account_activated: "Account activated"
+      invalid_activation: "Invalid activation link"
+      activation_error: "Account not activated. Check your email for the activation link."
