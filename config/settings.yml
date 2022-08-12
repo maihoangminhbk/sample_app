@@ -5,6 +5,8 @@ validates:
     max_length: 255
   password:
     min_length: 6
+  micropost:
+    max_length: 140
 image:
   default:
     size: 80
@@ -16,3 +18,7 @@ email:
   from: "noreply.sampleapp.test@gmail.com"
 password_reset:
   expire_time: 2
+minipost:
+  accept_path: "image/jpeg,image/gif,image/png"
+  resize_to_limit: [500, 500]
+  image_size: 5

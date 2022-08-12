@@ -15,4 +15,8 @@
       <%= render "layouts/footer" %>
     </div>
   </body>
+  <script>
+    var language = "<%= I18n.locale %>";
+    I18n.translations = <%== I18n::JS.filtered_translations.to_json %>;
+  </script>
 </html>
