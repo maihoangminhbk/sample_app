@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   def authenticated user
     log_in user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_to user
+    redirect_back_or user
   end
 
   def create
@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
     if user&.authenticate(params[:session][:password])
       authenticated user
     else
-      flash[:danger] = t("global.flash.login.invalid")
+      flash[:danger] = t("global.flash.user.login.invalid")
       render :new
     end
   end
