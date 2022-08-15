@@ -13,16 +13,18 @@ vi:
       news: "Tin tức"
     flash:
       user:
-        success: "Chào mừng đến với ứng dụng Sample App!"
-        invalid: "Thông tin chưa đúng, chưa thể đăng kí"
-      login:
-        invalid: "Email hoặc mật khẩu không đúng"
-        require: "Xin hãy đăng nhập"
-      edit:
-        success: "Sửa thành công!"
-        invalid: "Thông tin bị sai"
-      find:
-          not_found: "Không tìm thấy người dùng!"
+        signup:
+          success: "Chào mừng đến với ứng dụng Sample App!"
+          invalid: "Thông tin chưa đúng, chưa thể đăng kí"
+        login:
+          invalid: "Email hoặc mật khẩu không đúng"
+          require: "Xin hãy đăng nhập"
+          check_email: "Làm ơn kiểm tra Email để kích hoạt tài khoản."
+        edit:
+          success: "Sửa thành công!"
+          invalid: "Thông tin bị sai"
+        find:
+            not_found: "Không tìm thấy người dùng!"
     error:
       form:
         contain: "Dữ liệu chứa đựng "
@@ -67,8 +69,32 @@ vi:
       confirm: "Bạn có chắc muốn xóa?"
       success: "Xóa thành công"
       fail: "Xóa thất bại, thử lại"
+    create:
+      invalid: "Thông tin chưa đúng, chưa thể đăng kí"
+      check_email: "Làm ơn kiểm tra Email để kích hoạt tài khoản."
+    update:
+      success: "Sửa thành công!"
+      invalid: "Thông tin bị sai"
+    destroy:
+      success: "Xóa thành công"
+      fail: "Xóa thất bại, thử lại"
+    logged_in_user:
+      require: "Xin hãy đăng nhập"
+    find_user:
+      not_found: "Không tìm thấy người dùng!"
   sessions:
     new:
       login: "Đăng nhập"
       new_user: "Tài khoản mới?"
       signup_now: "Đăng kí ngay!"
+    create:
+      invalid: "Email hoặc mật khẩu không đúng"
+  mailer:
+    user:
+      greeting: "Xin chào!"
+      subject: "Kích hoạt tài khoản"
+      intro1: "Chào mừng đến với Sample App! Bấm vào link bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+      account_activated: "Tài khoản được kích hoạt"
+      invalid_activation: "Đường link kích hoạt không chính xác"
+      activation_error: "Tài khoản chưa được kích hoạt. Kiểm tra đường link trong email."

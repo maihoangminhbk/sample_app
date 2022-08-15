@@ -16,11 +16,12 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t("global.flash.user.signup.success")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t(".check_email")
+      redirect_to root_url
+
     else
-      flash[:danger] = t("global.flash.user.signup.invalid")
+      flash[:danger] = t(".invalid")
       render :new
     end
   end
@@ -29,19 +30,19 @@ class UsersController < ApplicationController
 
   def update
     if @user.update(user_params)
-      flash[:success] = t("global.flash.user.edit.success")
+      flash[:success] = t(".success")
       redirect_to @user
     else
-      flash[:danger] = t("global.flash.user.edit.invalid")
-      render "edit"
+      flash[:danger] = t(".invalid")
+      render :edit
     end
   end
 
   def destroy
     if @user.destroy
-      flash[:success] = t("users.delete.success")
+      flash[:success] = t(".success")
     else
-      flash[:danger] = t("users.delete.fail")
+      flash[:danger] = t(".fail")
     end
     redirect_to users_url
   end
@@ -56,7 +57,7 @@ class UsersController < ApplicationController
     return if logged_in?
 
     store_location
-    flash[:danger] = t("global.flash.user.login.require")
+    flash[:danger] = t(".require")
     redirect_to login_url
   end
 
@@ -68,7 +69,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
 
-    flash[:danger] = t "global.flash.find.not_found"
+    flash[:danger] = t ".not_found"
     redirect_to root_path
   end
 end
