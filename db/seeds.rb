@@ -1,4 +1,4 @@
-require 'faker'
+require "faker"
 User.create!(name: "Mai Hoang Minh",
             email: "maihoangminhbk@gmail.com",
             password: "123456",

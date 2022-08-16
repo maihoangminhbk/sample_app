@@ -14,3 +14,5 @@ pagy:
   size: 10
 email:
   from: "noreply.sampleapp.test@gmail.com"
+password_reset:
+  expire_time: 2

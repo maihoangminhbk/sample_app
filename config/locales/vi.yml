@@ -60,6 +60,7 @@ vi:
       password: "Mật khẩu"
       confirmation_password: "Xác nhận mật khẩu"
       remember_me: "Lưu tài khoản"
+      forgot_password: "Quên tài khoản"
     edit:
       edit: "Chỉnh sửa người dùng"
       account_edit: "Sửa thông tin"
@@ -98,3 +99,26 @@ vi:
       account_activated: "Tài khoản được kích hoạt"
       invalid_activation: "Đường link kích hoạt không chính xác"
       activation_error: "Tài khoản chưa được kích hoạt. Kiểm tra đường link trong email."
+      password_reset: "Lấy lại mật khẩu"
+      intro2: "Để đặt lại mật khẩu, bấm vào link bên dưới:"
+      intro3: "Nếu bạn không yêu cầu đặt lại, làm ơn bỏ qua thông báo này."
+  password_resets:
+    new:
+      forgot_password: "Quên tài khoản"
+      submit: "Đồng ý"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+    create:
+      info: "Đã gửi đặt lại password tới Email"
+      fail: "Địa chỉ email không tồn tại"
+    update:
+      error: "Không thể để trống"
+      success: "Mật khẩu đã được đặt lại"
+      fail: "Thay đổi mật khẩu thất bại"
+    valid_user:
+      error: "Người dùng chưa được kích hoạt hoặc chưa xác thực"
+    check_expiration:
+      expired: "Đặt lại mật khẩu bị hết hạn"
+    find_user:
+      not_found: "Không tìm thấy người dùng!"
