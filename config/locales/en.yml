@@ -40,6 +40,7 @@ en:
       intro1: "This is the home page for the"
       intro2: "sample application."
       signup: "Sign up now"
+      feed: "Micropost Feed"
     help:
       help: "Help"
       intro1: "Get help on the Ruby on Rails Tutorial at the"
@@ -87,6 +88,8 @@ en:
       require: "Please login"
     find_user:
       not_found: "User Not Found!"
+    show:
+      microposts: "Microposts"
 
   sessions:
     new:
@@ -129,3 +132,27 @@ en:
       expired: "Password reset has expired."
     find_user:
       not_found: "User Not Found!"
+  microposts:
+    create:
+      success: "Micropost created!"
+      fail: "Micropost created fail"
+    destroy:
+      success: "micropost deleted successful"
+      fail: "Micropost deleted fail"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      confirm: "You sure?"
+      delete: "delete"
+  shared:
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
+    micropost_form:
+      post: "Post"
+      content_placeholder: "Compose new micropost..."
+      large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+  model:
+    minipost:
+      content_type: "must be a valid image format"
+      size: "should be less than 5MB"

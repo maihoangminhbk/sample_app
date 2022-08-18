@@ -24,7 +24,10 @@ vi:
           success: "Sửa thành công!"
           invalid: "Thông tin bị sai"
         find:
-            not_found: "Không tìm thấy người dùng!"
+          not_found: "Không tìm thấy người dùng!"
+        reset_password:
+          info: "Đã gửi đặt lại password tới Email"
+          fail: "Địa chỉ email không tồn tại"
     error:
       form:
         contain: "Dữ liệu chứa đựng "
@@ -37,6 +40,7 @@ vi:
       intro1: "Đây là trang web cho"
       intro2: "với ví dụ."
       signup: "Đăng kí"
+      feed: "Bài đăng"
     help:
       help: "Giúp đỡ"
       intro1: "Tìm kiếm sự giúp đỡ ở"
@@ -83,6 +87,8 @@ vi:
       require: "Xin hãy đăng nhập"
     find_user:
       not_found: "Không tìm thấy người dùng!"
+    show:
+      microposts: "Bài đăng"
   sessions:
     new:
       login: "Đăng nhập"
@@ -122,3 +128,27 @@ vi:
       expired: "Đặt lại mật khẩu bị hết hạn"
     find_user:
       not_found: "Không tìm thấy người dùng!"
+  microposts:
+    create:
+      success: "Đã tạo bài viết"
+      fail: "Tạo bài viết thất bại"
+    destroy:
+      success: "Xóa thành công"
+      fail: "Xóa thất bại"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      confirm: "Bạn chắc không?"
+      delete: "xóa"
+  shared:
+    user_info:
+      view_profile: "Xem trang cá nhân"
+      micropost: "bài đăng"
+    micropost_form:
+      post: "Đăng"
+      content_placeholder: "Nhập nội dung..."
+      large_img_error: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
+  models:
+    micropost:
+      content_type: "Loại file phải đúng"
+      size: "File nên nhỏ hơn 5MB"
