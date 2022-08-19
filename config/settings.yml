@@ -12,6 +12,8 @@ image:
     size: 80
   avatar:
     size: 50
+  user_avatar:
+    size: 30
 pagy:
   size: 10
 email:
