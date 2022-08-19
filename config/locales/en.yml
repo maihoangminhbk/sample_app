@@ -90,6 +90,17 @@ en:
       not_found: "User Not Found!"
     show:
       microposts: "Microposts"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      microposts: "Microposts"
+      view_profile: "View my profile"
 
   sessions:
     new:
@@ -152,7 +163,12 @@ en:
       post: "Post"
       content_placeholder: "Compose new micropost..."
       large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    stats:
+      following: "following"
+      followers: "followers"
   model:
     minipost:
       content_type: "must be a valid image format"
       size: "should be less than 5MB"
+  relationships:
+    not_found: "User not found"

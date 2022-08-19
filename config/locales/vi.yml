@@ -89,6 +89,17 @@ vi:
       not_found: "Không tìm thấy người dùng!"
     show:
       microposts: "Bài đăng"
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      microposts: "Bài đăng"
+      view_profile: "Xem trang cá nhân"
   sessions:
     new:
       login: "Đăng nhập"
@@ -148,7 +159,12 @@ vi:
       post: "Đăng"
       content_placeholder: "Nhập nội dung..."
       large_img_error: "Kích cỡ tối đa của ảnh là 5MB, hãy chọn ảnh nhỏ hơn."
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   models:
     micropost:
       content_type: "Loại file phải đúng"
       size: "File nên nhỏ hơn 5MB"
+  relationships:
+    not_found: "Không tìm thấy người dùng"
